@@ -14,7 +14,7 @@ Clone the repo to a location of your choosing:
   git clone https://github.com/pbzona/cats-forever.git
   ```
 
-Go navigate into the directory:
+Navigate into the directory:
 
   ```
   cd cats-forever
