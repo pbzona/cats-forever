@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cats Forever</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+  <main class="main-container">
+    <h1 class="heading-text">Cats Forever</h1>
+    <section class="image-container">
+      {{{ catPic }}}
+
+      {{#error}}
+        <p class="error-text">No cats here!</p>
+        <p class="error-text">Go <a href="/">home</a> to see pictures.</p>
+      {{/error}}
+
+      {{#catPic}}
+        <button id="btn" class="new-image-button">
+          Get New Cat Pic
+        </button>
+      {{/catPic}}
+    </section>
+    <p class="image-text">
+      Powered by <a href="http://thecatapi.com">The Cat API</a>
+    </p>
+    <script src="script.js"></script>
+  </main>
+</body>
+</html>

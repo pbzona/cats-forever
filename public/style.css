@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #4076A0;
+}
+
+a, a:link, a:visited {
+  color: #154C76;
+}
+
+.main-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+.heading-text {
+  color: #fff;
+  font-size: 6rem;
+}
+
+.catPic {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.image-container {
+  background-color: #95BBD9;
+  border-radius: 1rem;
+  padding: 4rem 0;
+}
+
+.error-text {
+  color: #222;
+  font-size: 3rem;
+}
+
+.new-image-button {
+  background-color: #286391;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.new-image-button:hover {
+  background-color: #154C76;
+}
+
+.image-text {
+  color: #fff;
+  font-size: 1.6rem;
+  display: block;
+}
